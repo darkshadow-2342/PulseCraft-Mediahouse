@@ -368,25 +368,18 @@ em {
   background: var(--background);
   z-index: 70;
   overflow: auto; */
-
-    position: fixed;
+  position: fixed;
   inset: 0 !important;
   top: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
   left: 0 !important;
-  width: 100%;
-  max-width: none;
+  width: 100vw !important;
+  max-width: none !important;
   height: 100dvh;
   transform: none !important;
-  padding: 28px;
-  border: 0;
-  border-radius: 0;
-  display: flex;
-  flex-direction: column;
-  background: var(--background);
-  z-index: 70;
-  overflow: auto;
+  translate: none !important;
+  margin: 0 !important;
 }
 .menu-top {
   display: flex;
