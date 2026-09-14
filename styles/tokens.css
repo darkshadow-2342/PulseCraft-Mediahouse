@@ -1,0 +1,20 @@
+@font-face{font-family:FrameDisplay;src:url('/fonts/display.woff') format('woff');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:FrameSans;src:url('/fonts/body.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:FrameSerif;src:url('/fonts/editorial.woff') format('woff');font-weight:400;font-style:italic;font-display:swap}
+:root {
+  --background:#F2EEE7; --foreground:#20201E; --surface:#E8E2D8; --muted:#756F67;
+  --oxblood:#672B35; --oxblood-deep:#4D2029; --accent-alt:#B29370;
+  --dark:#1C1D1B; --dark-muted:#B9B7AF; --light:#F2EEE7;
+  --line:rgba(32,32,30,.2); --line-light:rgba(242,238,231,.22);
+  --font-display:FrameDisplay,'Arial Narrow',sans-serif;
+  --font-body:FrameSans,Arial,sans-serif;
+  --font-editorial:FrameSerif,Georgia,serif;
+  --font-mono:'Courier New',monospace;
+  --space-page:clamp(24px,4.2vw,80px); --space-section:clamp(76px,9vw,150px);
+  --radius-sm:4px; --radius-md:12px; --radius-pill:100px;
+  --fast:220ms; --normal:650ms; --slow:1000ms;
+  --ease:cubic-bezier(.22,1,.36,1); --cinematic:cubic-bezier(.76,0,.24,1);
+  --card:var(--background);--card-foreground:var(--foreground);--popover:var(--background);--popover-foreground:var(--foreground);
+  --primary:var(--oxblood);--primary-foreground:var(--light);--secondary:var(--surface);--secondary-foreground:var(--foreground);
+  --muted-foreground:var(--muted);--accent:var(--surface);--accent-foreground:var(--foreground);--border:var(--line);--input:var(--line);--ring:var(--oxblood);--radius:4px;
+}
